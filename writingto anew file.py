@@ -12,7 +12,7 @@ for raw in data:
 
 
 
-
+#try and catch
 
 
 try:
@@ -24,7 +24,10 @@ try:
 
 except:
     print("you have a problem wiith your input_file")
-
+#lopping trough data
 
 for line in data :
     writer.writerow(line)
+ 
+ 
+ 
